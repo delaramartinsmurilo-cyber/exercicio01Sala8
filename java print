@@ -1,0 +1,23 @@
+function mostrar(){
+    var texto = document.getElementById('i1').value
+    var cor = document.getElementById('i2').value
+    var Data = document.getElementById('i3').value
+    var Data = document.getElementById('i4').value
+    var printDiv = document.getElementById("print")
+
+    var printTexto = document.getElementById("print texto")
+    var printcor = document.getElementById("printCor")
+    var printData = document.getElementById("printData")
+    var printCheck = document.getElementById("printCheck")
+
+    // printTexto.textContent = "o texo digitado foi: " + texto
+    printTexto.textContent = `o texo digitado foi: '  ${texto}`
+    printCor.InnerHTML = "a cor escolhida foi :" `${cor}`
+    printData.InnerHTML = "a data escolhida foi :" `${data}`
+    printCheck.textContent = "voce escolheu :" `${Check}`
+    printDiv.style.display = 'block'
+
+    printDiv.style.backgroundColor = cor
+    // console.log(texto, typeof texto)
+    console.log(texto, typeof texto)
+}                           
