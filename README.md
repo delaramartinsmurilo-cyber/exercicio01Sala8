@@ -1,1 +1,28 @@
 # exercicio01Sala8
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ge checker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>check majority</h1>
+    <main>
+        <label for="birth">digite o ano de nascimento</label><br>
+        <input type="number" id="birth">
+        <button onclick="check()">Averiguar</button>
+    </main>
+    <h2 id="result"></h2>
+    <h3 id="age"></h3>  
+    <div id="id">
+        <h3>imagem feliz</h3>
+        <img width="300" height="auto" src="../d512451c5272f36694cfea7a04f85fa9.jpg" alt="resenha">
+    </div>
+    <div>
+        <h3>imagem triste</h3>
+        <img width="300" height="auto" src="https://png.pngtree.com/thumb_back/fh260/background/20230516/pngtree-sad-person-sitting-on-a-muddy-road-in-the-rain-image_2576887.jpg" alt="outra resenha">
+    </div>
+    <script src="script.js"></script>
+    
