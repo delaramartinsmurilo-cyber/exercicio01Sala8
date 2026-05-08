@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing : border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+#v1{
+    display: none;
+}
+
+#v2{
+    display: none;
+}
+
+#v3{
+    display: none;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5hv;
+    min-height: 100vh;
+    height: auto;
+    background-color: rgb(255, 255, 255); 
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
